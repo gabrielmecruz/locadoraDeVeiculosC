@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>telaAlterarCliente</class>
+ <widget class="QDialog" name="telaAlterarCliente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_Nome">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>132</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Telefone">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>129</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_CNH">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>179</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_imagem">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>249</y>
+     <width>131</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>109</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Telefone</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_InserirFoto">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>209</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Inserir Foto</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>159</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CNH</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>159</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Email">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>179</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAlterarCliente">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>289</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>51</y>
+     <width>216</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="lineEdit_CPF">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>CPF</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButtonBuscarClienteAlterar">
+      <property name="text">
+       <string>Buscar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButtonVoltar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-icon:url(:/rec/img/reply-arrow-filled.png)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>lineEdit_Nome</zorder>
+  <zorder>lineEdit_Telefone</zorder>
+  <zorder>lineEdit_CNH</zorder>
+  <zorder>label_imagem</zorder>
+  <zorder>label_4</zorder>
+  <zorder>pushButton_InserirFoto</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_2</zorder>
+  <zorder>lineEdit_Email</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButtonAlterarCliente</zorder>
+  <zorder>pushButtonVoltar</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_CPF</tabstop>
+  <tabstop>pushButtonBuscarClienteAlterar</tabstop>
+  <tabstop>lineEdit_Nome</tabstop>
+  <tabstop>lineEdit_Telefone</tabstop>
+  <tabstop>lineEdit_Email</tabstop>
+  <tabstop>lineEdit_CNH</tabstop>
+  <tabstop>pushButton_InserirFoto</tabstop>
+  <tabstop>pushButtonAlterarCliente</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/alugar.png</file>
+        <file>img/alugar2.png</file>
+        <file>img/business_application_addmale_useradd_insert_add_user_client_2312.png</file>
+        <file>img/buyacar_89124.png</file>
+        <file>img/Cabriolet_Red_icon-icons.com_54906.png</file>
+        <file>img/localiza-logo-1.png</file>
+        <file>img/to_do_list_icon-icons.com_76974.png</file>
+        <file>img/users_folder_19897.png</file>
+        <file>img/devices_floppydisk_dispositivos_691.png</file>
+        <file>img/reply-arrow-filled.png</file>
+        <file>img/SAF_17_POSTBLOG_21_MAR_V1-1000x600.png</file>
+        <file>img/07852f228cc629c0bb6c3625e7c98d6f.png</file>
+        <file>img/45f8c90400cc8aecb0f60ca8cb3078f7.png</file>
+        <file>img/580b585b2edbce24c47b2c14.png</file>
+        <file>img/QUANT2.png</file>
+        <file>img/Mercedes-S65-AMG-Coupe-0.jpg</file>
+    </qresource>
+</RCC>
